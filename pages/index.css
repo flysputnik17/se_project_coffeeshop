@@ -1,0 +1,9 @@
+.page {
+  min-height: 1100px;
+  min-height: 1600px;
+  margin: 0 auto 0 auto;
+  font-family: "Inter", Arial, sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 20px;
+}
