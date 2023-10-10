@@ -105,7 +105,62 @@
             </div>
           </div>
         </section>
-        <section class="resevation" id="Book_a_table"></section>
+        <section class="resevation" id="Book_a_table">
+          <h2 class="resevation__title">Book a table</h2>
+          <form class="resevation__form">
+            <fieldset class="form__fieldset">
+              <label class="resevation__form-label" for="user-name"
+                >Name *</label
+              >
+              <input
+                class="form__fieldset-inpput"
+                type="text"
+                id="user-name"
+                placeholder="Name Surname"
+                required
+              />
+              <label class="resevation__form-label" for="num-of-guests"
+                >Number of guests *</label
+              >
+              <input
+                class="form__fieldset-inpput"
+                type="number"
+                id="num-of-guests"
+                placeholder="1-8"
+                required
+              />
+              <label class="resevation__form-label" for="date"
+                >Date & time *</label
+              >
+              <input
+                class="form__fieldset-inpput"
+                type="datetime-local"
+                id="date"
+                required
+              />
+              <label class="resevation__form-label" for="email"
+                >Your email *</label
+              >
+              <input
+                class="form__fieldset-inpput"
+                type="email"
+                id="email"
+                placeholder="email@email.com"
+                required
+              />
+              <button class="form__fieldset-button" type="submit">
+                Book a table
+              </button>
+              <label class="resevation__form-label" for="terms-of-use"
+                ><input
+                  type="checkbox"
+                  id="terms-of-use"
+                  class="form__fieldset-checkbox"
+                />I agree with the terms of use
+              </label>
+            </fieldset>
+          </form>
+        </section>
         <section class="menu" id="Menu"></section>
         <section class="about" id="Contacts"></section>
       </main>
