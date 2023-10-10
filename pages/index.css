@@ -228,7 +228,7 @@
   line-height: 30px;
 }
 
-.form__fieldset-button {
+.resevation__form-button {
   border-radius: 4px;
   height: 60px;
   font-family: "Inter", Arial, sans-serif;
@@ -242,13 +242,13 @@
   opacity: 100%;
 }
 
-.form__fieldset-checkbox {
+.resevation__form-checkbox {
   width: 20px;
   height: 20px;
   margin-right: 12px;
   border-radius: 2px;
 }
 
-.form__fieldset-button:hover {
+.resevation__form-button:hover {
   opacity: 70%;
 }
