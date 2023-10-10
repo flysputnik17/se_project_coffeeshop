@@ -194,7 +194,7 @@
   width: 385px;
 }
 
-.form__fieldset {
+.resevation__form-fieldset {
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -217,7 +217,7 @@
   margin-bottom: 0;
 }
 
-.form__fieldset-inpput {
+.form__input {
   height: 60px;
   border-radius: 4px;
   height: 60px;
