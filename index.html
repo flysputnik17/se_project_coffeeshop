@@ -37,7 +37,7 @@
               <a class="nav__link" href="#Recipes">Recipes</a>
             </li>
             <li>
-              <a class="nav__link" href="#Book_a_table">Book a table</a>
+              <a class="nav__link" href="#reservation">Book a table</a>
             </li>
             <li>
               <a class="nav__link" href="#Menu">Menu</a>
@@ -105,7 +105,7 @@
             </div>
           </div>
         </section>
-        <section class="resevation" id="Book_a_table">
+        <section class="resevation" id="reservation">
           <h2 class="resevation__title">Book a table</h2>
           <form class="resevation__form form">
             <fieldset class="form__fieldset">
@@ -123,6 +123,8 @@
                   class="form__input"
                   type="number"
                   id="num-of-guests"
+                  min="1"
+                  max="8"
                   placeholder="1-8"
                   required
               /></label>

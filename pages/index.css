@@ -208,6 +208,11 @@
   color: #000;
 }
 
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+}
+
 .form__input {
   margin-top: 8px;
   display: block;
@@ -215,15 +220,12 @@
   height: 60px;
   border-radius: 4px;
   height: 60px;
-  padding: 0;
+  padding-right: 15px;
+  padding-left: 15px;
   font-family: "Inter", Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
-}
-
-.form__label_type_checkbox {
-  display: flex;
-  justify-content: center;
+  box-sizing: border-box;
 }
 
 .form__button {
