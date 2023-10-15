@@ -19,8 +19,12 @@
 
 .footer__list {
   list-style-type: none;
-  margin-left: auto;
+  margin: 0;
   padding: 0;
+}
+
+.footer__column {
+  margin-left: auto;
 }
 
 .footer__social-heading {
