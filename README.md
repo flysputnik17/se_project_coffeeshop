@@ -2,7 +2,7 @@
 
 This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief.
 
-![alt-text](./images/inside_coffee_shop.png)
+![alt-text](./images/landing%20page.png)
 
 ## Project features
 
@@ -12,7 +12,3 @@ This is the second project of the Software Engineering program at TripleTen. It 
 - Flat BEM file structure
 - A custom form
 - CSS animation and transform
-
-## Plan on improving the project
-
-Add your ideas here :)
