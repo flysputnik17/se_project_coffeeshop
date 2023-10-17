@@ -38,7 +38,7 @@
   font-size: 20px;
   line-height: 30px;
   box-sizing: border-box;
-  border-color: #838383;
+  border: 1px solid #838383;
 }
 
 .form__button {
